@@ -1,3 +1,9 @@
+#
+README: Essa aplicação administra uma lista de compras que o usuário irá fazer em um supermercado, 
+onde apresentamos ao usuário a possibilidade de adicionar, remover, exibir o carrinho e calcular o toral#
+
+
+
 def adicionar_item(carrinho, item, quantidade, preco):
     if item in carrinho:
         carrinho[item]['quantidade'] += quantidade
@@ -46,4 +52,5 @@ def main():
             case _:
                 print("Opção inválida. Tente novamente.")
 if __name__ == "__main__":
+
     main()
