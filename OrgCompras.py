@@ -1,6 +1,6 @@
-#
-README: Essa aplicação administra uma lista de compras que o usuário irá fazer em um supermercado, 
-onde apresentamos ao usuário a possibilidade de adicionar, remover, exibir o carrinho e calcular o toral#
+
+##README: Essa aplicação administra uma lista de compras que o usuário irá fazer em um supermercado## 
+##onde apresentamos ao usuário a possibilidade de adicionar, remover, exibir o carrinho e calcular o toral##
 
 
 
@@ -54,3 +54,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
